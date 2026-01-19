@@ -23,11 +23,11 @@ def color_grabber(center_xCoord: float = 0, center_yCoord: float = 0, initial_r:
     
     :return color: The RGB color name (a string)
 
-    ###### pyautogui
-    ###### pixelscan
-    ###### mouse
-    ###### math
-    ###### colornames
+    ###### [pyautogui](https://pyautogui.readthedocs.io/en/latest/)
+    ###### [pixelscan](https://github.com/dpmcmlxxvi/pixelscan)
+    ###### [mouse](https://pypi.org/project/mouse/)
+    ###### [math](https://docs.python.org/3/library/math.html)
+    ###### [colornames](https://github.com/rgson/python-colornames?tab=readme-ov-file)
     """
 
     import pyautogui
@@ -63,4 +63,5 @@ def color_grabber(center_xCoord: float = 0, center_yCoord: float = 0, initial_r:
         print(color_name)
 
     return color_name
+
 
