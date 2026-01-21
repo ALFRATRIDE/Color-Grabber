@@ -8,7 +8,7 @@ def color_grabber(center_xCoord: float = 0, center_yCoord: float = 0, initial_r:
     :type center_yCoord: float
     :param initial_r: Initial radius
     :type initial_r: float
-    :param final_r: Initial radius
+    :param final_r: Final radius
     :type final_r: float
 
     :param circle: If you want to use the circlescan function
@@ -63,5 +63,6 @@ def color_grabber(center_xCoord: float = 0, center_yCoord: float = 0, initial_r:
         print(color_name)
 
     return color_name
+
 
 
