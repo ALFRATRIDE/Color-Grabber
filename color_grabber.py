@@ -11,7 +11,7 @@ def color_grabber(center_xCoord: float = 0, center_yCoord: float = 0, initial_r:
     :param final_r: Final radius
     :type final_r: float
 
-    :param circle: If you want to use the circlescan function
+    :param circle: If you want to use the circlescan function; this moves the mouse to the center to the screen.
     :type circle: bool
 
     **IF**
@@ -63,6 +63,7 @@ def color_grabber(center_xCoord: float = 0, center_yCoord: float = 0, initial_r:
         print(color_name)
 
     return color_name
+
 
 
 
