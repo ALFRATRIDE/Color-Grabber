@@ -37,7 +37,7 @@ def color_grabber(center_xCoord: float = 0, center_yCoord: float = 0, initial_r:
     import colornames
 
     if circle:
-        mouse.move(960, 540)
+        mouse.move(960, 540) # center of 1920x1080 resolution screen
         for x, y in pixelscan.circlescan(center_xCoord, center_yCoord, initial_r, final_r):
             x = math.ceil(x)
             y = math.ceil(y)
@@ -63,6 +63,7 @@ def color_grabber(center_xCoord: float = 0, center_yCoord: float = 0, initial_r:
         print(color_name)
 
     return color_name
+
 
 
 
